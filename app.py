@@ -1,4 +1,3 @@
-# app.py
 import streamlit as st
 from datetime import date
 
@@ -25,5 +24,3 @@ if st.button("Calculate Age"):
     st.success(f"Your age is {age} years.")
 
 
-# requirements.txt
-streamlit
