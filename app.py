@@ -17,7 +17,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 st.write("Enter your Date of Birth:")
-birthdate = st.date_input("Select date", value=date(2000, 1, 1))
+birthdate = st.date_input("Select date", value=date())
 
 if st.button("Calculate Age"):
     age = calculate_age(birthdate)
